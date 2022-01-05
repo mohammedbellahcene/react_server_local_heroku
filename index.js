@@ -80,9 +80,14 @@ const data = [
     annule: false,
   },
 ];
-app.get("/", function (req, res) {
-  console.log("appel");
+app.get("/datayannick", function (req, res) {
+  console.log("appel data yannick");
   res.json(data);
+});
+
+app.get("/", function (req, res) {
+  console.log("appel Home");
+  res.json("HELLO");
 });
 
 app.listen(process.env.PORT);

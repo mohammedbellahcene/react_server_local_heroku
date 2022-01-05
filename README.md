@@ -30,6 +30,9 @@
   "start":"node index.js"
   },
   taper "npm start" correspond donc a taper "node index.js" c'est a dire lancer node sur index.js
+
+  SUR VOTRE COMPTE HEROKU.COM
+
 - new / create new app
 - name / region / create app
 - Deployment method => connecter a github
