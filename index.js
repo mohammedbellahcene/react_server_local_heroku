@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+require("dotenv").config();
 
 const data = [
   {
@@ -84,4 +85,4 @@ app.get("/", function (req, res) {
   res.json(data);
 });
 
-app.listen(3010);
+app.listen(process.env.PORT);
